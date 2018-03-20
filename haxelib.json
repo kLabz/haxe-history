@@ -1,0 +1,16 @@
+{
+  "name": "history",
+  "description": "Externs for the history lib.",
+  "version": "0.0.1",
+  "releasenote": "Initial release. (See CHANGELOG.md)",
+  "url": "https://github.com/kLabz/haxe-history",
+  "license": "MIT",
+  "tags": [
+    "javascript"
+  ],
+  "classPath": "src",
+  "contributors": [
+    "klabz"
+  ]
+}
+
