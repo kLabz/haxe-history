@@ -21,17 +21,17 @@ typedef History = {
 	/**
 		Create a valid href for a location.
 	*/
-	var createHref:Location->String;
+	var createHref:To->String;
 
 	/**
 		Pushes a new entry onto the history stack.
 	*/
-	var push:String->?Dynamic->Void;
+	var push:To->?Dynamic->Void;
 
 	/**
 		Replaces the current entry on the history stack.
 	*/
-	var replace:String->?Dynamic->Void;
+	var replace:To->?Dynamic->Void;
 
 	/**
 		Moves the pointer in the history stack by n entries.
